@@ -2,6 +2,12 @@
 
 A Java program that plays an MP3, detects the beats in real time and draws a pixel-art light show on a 10 × 20 grid of coloured "pixels", changing the picture as the song progresses. My choreography is set to **"Empty Space" by James Arthur** (198 beats in total).
 
+## Demo
+
+https://github.com/user-attachments/assets/fc87688f-dbc0-46b9-adec-e741660b16a1
+
+*The 10 × 20 pixel display reacting to the beats of “Empty Space” by James Arthur. Turn the sound on. (1:37)*
+
 ## How it works
 
 1. `Main` opens a file picker so you can choose an `.mp3` and plays it with the [Minim](https://code.compartmental.net/minim/) audio library.
@@ -48,3 +54,4 @@ When prompted, pick an MP3 file. The choreography is timed for "Empty Space", bu
 - The display, beat-detection and threading framework in `ryanguru/` was provided as starter code for the module.
 - Audio playback and beat detection use [Minim](https://code.compartmental.net/minim/).
 - Choreography (`YourCode.java`): Valerie Tan Wan Xin
+
